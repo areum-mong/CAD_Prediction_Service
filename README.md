@@ -110,8 +110,7 @@ cag-prediction-service-main
 │   │   ├── CAD_Data_Preprocessed_Modeling.xlsx  # 전처리 후 최종 모델링용 데이터
 │   │   └── Z-Alizadeh sani dataset.xlsx         # 원본 환자 데이터셋
 │   ├── docs
-│   │   ├── 세미1 프로젝트 PPT 2팀 .pdf          # 프로젝트 발표용 PPT 자료
-│   │   └── 세미1 프로젝트 기획서_2조.docx        # 연구/개발 상세 기획서
+│   │   └── CAD_predict_service.pptx             # 프로젝트 발표 및 기획 소개 PPTX 자료
 │   └── src
 │       ├── CAD_Data_processing.py               # 환자 임상데이터 가공 및 범주화 파이프라인
 │       ├── cad_model_training_and_evaluation.py # 4개 알고리즘 모델링, 교차검증, 임계값 도출, SHAP 학습
@@ -147,7 +146,7 @@ streamlit run cag-upload/src/CAD_Risk_Prediction_Streamlit_App.py
 
 * **시연 영상:** 대용량 비디오 파일로 인해 Google Drive 링크를 통해 시연 시나리오를 제공합니다.
   * [🎬 심편한 시연 영상 보기](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing)
-* **상세 보고서:** `cag-upload/docs` 내의 발표 PPT 및 기획서 한글 문서를 참조하면 비즈니스 로직과 분석 세부 내용을 파악하실 수 있습니다.
+* **상세 보고서:** `cag-upload/docs` 내의 발표 PPTX(`CAD_predict_service.pptx`) 자료를 참조하면 비즈니스 로직과 분석 세부 내용을 파악하실 수 있습니다.
 
 ---
 
