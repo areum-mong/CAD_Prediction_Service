@@ -12,6 +12,17 @@
 
 ---
 
+
+## 🎬 프로젝트 시연 및 발표 자료 (Demo & Presentation)
+
+이 프로젝트의 실제 구동 영상과 기획/아키텍처에 대한 발표 자료를 아래 링크를 통해 직접 확인하실 수 있습니다.
+
+| 📹 서비스 시연 영상 (Streamlit) | 📊 프로젝트 발표 자료 (PPT) |
+| :---: | :---: |
+| [![DEMO VIDEO](https://img.shields.io/badge/DEMO_VIDEO-PLAY-EA4335?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [![PRESENTATION](https://img.shields.io/badge/PRESENTATION-PPT_DOWNLOAD-0078D4?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
+| [[시연 영상 재생 및 다운로드]](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [[발표 자료 다운로드]](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
+
+---
 ## 📌 1. 프로젝트 개요 (Project Overview)
 
 본 프로젝트는 환자의 주요 임상 데이터를 분석하여 **관상동맥질환(CAD; Coronary Artery Disease)**의 위험도를 스크리닝하고 **심혈관조영술(CAG; Coronary Angiography)**의 필요성을 추천해 주는 **의료 AI 진단 보조 솔루션**입니다.
@@ -140,16 +151,4 @@ pip install pandas scikit-learn streamlit openpyxl xgboost shap matplotlib jobli
 streamlit run cag-upload/src/CAD_Risk_Prediction_Streamlit_App.py
 ```
 
----
-
-## 🎬 프로젝트 시연 및 발표 자료 (Demo & Presentation)
-
-이 프로젝트의 실제 구동 영상과 기획/아키텍처에 대한 발표 자료를 아래 링크를 통해 직접 확인하실 수 있습니다.
-
-| 📹 서비스 시연 영상 (Streamlit) | 📊 프로젝트 발표 자료 (PPT) |
-| :---: | :---: |
-| [![DEMO VIDEO](https://img.shields.io/badge/DEMO_VIDEO-PLAY-EA4335?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [![PRESENTATION](https://img.shields.io/badge/PRESENTATION-PPT_DOWNLOAD-0078D4?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
-| [[시연 영상 재생 및 다운로드]](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [[발표 자료 다운로드]](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
-
----
 
