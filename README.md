@@ -142,11 +142,14 @@ streamlit run cag-upload/src/CAD_Risk_Prediction_Streamlit_App.py
 
 ---
 
-## 🎬 9. 시연 영상 및 문서
+## 🎬 프로젝트 시연 및 발표 자료 (Demo & Presentation)
 
-* **시연 영상:** 대용량 비디오 파일로 인해 Google Drive 링크를 통해 시연 시나리오를 제공합니다.
-  * [🎬 심편한 시연 영상 보기](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing)
-* **상세 보고서:** `cag-upload/docs` 내의 발표 PPTX(`CAD_predict_service.pptx`) 자료를 참조하면 비즈니스 로직과 분석 세부 내용을 파악하실 수 있습니다.
+이 프로젝트의 실제 구동 영상과 기획/아키텍처에 대한 발표 자료를 아래 링크를 통해 직접 확인하실 수 있습니다.
+
+| 📹 서비스 시연 영상 (Streamlit) | 📊 프로젝트 발표 자료 (PPT) |
+| :---: | :---: |
+| [![DEMO VIDEO](https://img.shields.io/badge/DEMO_VIDEO-PLAY-EA4335?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [![PRESENTATION](https://img.shields.io/badge/PRESENTATION-PPT_DOWNLOAD-0078D4?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
+| [[시연 영상 재생 및 다운로드]](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [[발표 자료 다운로드]](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
 
 ---
 
