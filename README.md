@@ -151,11 +151,3 @@ streamlit run cag-upload/src/CAD_Risk_Prediction_Streamlit_App.py
 
 ---
 
-## 👥 10. 팀원 및 기여도 (Team Members)
-
-| 이름 | 이메일 | 기여 분야 |
-| :---: | :--- | :--- |
-| **김아름** | dkfma1725@gmail.com | 프로젝트 기획 및 UI 디자인, Streamlit 웹 애플리케이션 설계 및 통합 구현 |
-| **안소정** | sojeongan652@gmail.com | 데이터 탐색 및 피처 엔지니어링, 전처리 데이터 파이프라인 구축 |
-| **홍지연** | cherishi814a@gmail.com | 머신러닝 알고리즘 모델링 및 5-Fold Stratified 교차검증 성능 평가 |
-| **김채림** | chaerim10@gmail.com | Youden's Index 기반 임계값 최적화 분석 및 SHAP Explainable AI(XAI) 로직 설계 |
