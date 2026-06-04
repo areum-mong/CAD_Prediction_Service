@@ -1,13 +1,19 @@
-# 🫀 심편한: 관상동맥질환(CAD) 및 심혈관조영술(CAG) 위험도 예측 AI 웹 서비스
-
-> **임상 환자 데이터를 기반으로 관상동맥질환(CAD) 위험도를 예측하고, 의료진과 환자에게 AI 기반의 설명 가능한(XAI) 의사결정 보조 정보를 제공하는 Web Service 프로젝트입니다.**
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-144957?style=for-the-badge&logo=xgboost&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="cag-upload/docs/심편한LOGO.png" alt="심편한 로고" width="220" />
+  
+  <h1>🫀 심편한: 관상동맥질환(CAD) 및 심혈관조영술(CAG) 위험도 예측 AI 웹 서비스</h1>
+  
+  <p><b>임상 환자 데이터를 기반으로 관상동맥질환(CAD) 위험도를 예측하고, 의료진과 환자에게 AI 기반의 설명 가능한(XAI) 의사결정 보조 정보를 제공하는 Web Service 프로젝트입니다.</b></p>
+  
+  <p><i>SimPyeonHan is an AI-driven clinical decision support web service that predicts Coronary Artery Disease (CAD) risk and recommends Coronary Angiography (CAG) based on patient clinical data. It leverages Explainable AI (XAI) using SHAP and diagnostic threshold optimization to assist both healthcare providers and patients.</i></p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+    <img src="https://img.shields.io/badge/XGBoost-144957?style=for-the-badge&logo=xgboost&logoColor=white" />
+    <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  </p>
 </div>
 
 ---
@@ -144,12 +150,38 @@ streamlit run cag-upload/src/CAD_Risk_Prediction_Streamlit_App.py
 
 ## 🎬 프로젝트 시연 및 발표 자료 (Demo & Presentation)
 
-이 프로젝트의 실제 구동 영상과 기획/아키텍처에 대한 발표 자료를 아래 링크를 통해 직접 확인하실 수 있습니다.
+<div align="center">
+  <p>이 프로젝트의 실제 구동 영상과 기획/아키텍처에 대한 발표 자료를 아래 링크를 통해 직접 확인하실 수 있습니다.</p>
+  
+  <br/>
 
-| 📹 서비스 시연 영상 (Streamlit) | 📊 프로젝트 발표 자료 (PPT) |
-| :---: | :---: |
-| [![DEMO VIDEO](https://img.shields.io/badge/DEMO_VIDEO-PLAY-EA4335?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [![PRESENTATION](https://img.shields.io/badge/PRESENTATION-PPT_DOWNLOAD-0078D4?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
-| [[시연 영상 재생 및 다운로드]](https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing) | [[발표 자료 다운로드]](https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx) |
+  <table>
+    <tr>
+      <th align="center">📹 서비스 시연 영상 (Streamlit)</th>
+      <th align="center">📊 프로젝트 발표 자료 (PPT)</th>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing">
+          <img src="https://img.shields.io/badge/DEMO_VIDEO-PLAY-EA4335?style=for-the-badge&logo=youtube&logoColor=white" alt="DEMO VIDEO" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx">
+          <img src="https://img.shields.io/badge/PRESENTATION-PPT_DOWNLOAD-0078D4?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" alt="PRESENTATION" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://drive.google.com/file/d/1ZSn1oS0H0DwAgbnLHcEfM240Pgm9-NtC/view?usp=sharing"><b>[시연 영상 재생 및 다운로드]</b></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/areum-mong/CAD_Prediction_Service/raw/main/cag-upload/docs/CAD_predict_service.pptx"><b>[발표 자료 다운로드]</b></a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
