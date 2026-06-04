@@ -1,11 +1,12 @@
-<div align="center">
-  <img src="cag-upload/docs/심편한LOGO.png" alt="심편한 로고" width="220" />
-  
+ 
   <h1>🫀 심편한: 관상동맥질환(CAD) 및 심혈관조영술(CAG) 위험도 예측 AI 웹 서비스</h1>
   
   <p><b>임상 환자 데이터를 기반으로 관상동맥질환(CAD) 위험도를 예측하고, 의료진과 환자에게 AI 기반의 설명 가능한(XAI) 의사결정 보조 정보를 제공하는 Web Service 프로젝트입니다.</b></p>
   
   <p><i>SimPyeonHan is an AI-driven clinical decision support web service that predicts Coronary Artery Disease (CAD) risk and recommends Coronary Angiography (CAG) based on patient clinical data. It leverages Explainable AI (XAI) using SHAP and diagnostic threshold optimization to assist both healthcare providers and patients.</i></p>
+
+<div align="center">
+  <img src="cag-upload/docs/심편한LOGO.png" alt="심편한 로고" width="220" />
 
   <p>
     <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
