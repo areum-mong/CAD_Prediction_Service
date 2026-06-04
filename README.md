@@ -81,7 +81,9 @@
 ## 🛠️ 3. 모델 아키텍처 및 이중화 설계 (Dual-Model Strategy)
 
 임상 현장 및 사용자 시나리오에 맞추어 **이중 예측 모델(Dual-Model) 체계**로 설계했습니다.
+
 <img width="1903" height="917" alt="Two_track_solution" src="https://github.com/user-attachments/assets/e62d7045-e25b-4bd4-a15d-2d4d751aab51" />
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                          심편한 AI 진단 보조 시스템                     │
