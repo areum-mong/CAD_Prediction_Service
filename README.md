@@ -61,7 +61,7 @@
 ---
 ## 📌 1. 프로젝트 개요 (Project Overview)
 
-본 프로젝트는 환자의 주요 임상 데이터를 분석하여 **관상동맥질환(CAD; Coronary Artery Disease)**의 위험도를 스크리닝하고 **심혈관조영술(CAG; Coronary Angiography)**의 필요성을 추천해 주는 **의료 AI 진단 보조 솔루션**입니다.
+본 프로젝트는 환자의 주요 임상 데이터를 분석하여 **관상동맥질환(CAD; Coronary Artery Disease)**의 위험도를 스크리닝하여 **환자 자가진단 및 빠른 예측**을 도와주며 **심혈관조영술(CAG; Coronary Angiography)**의 필요성을 추천해 주는 **의료 AI 진단 보조 솔루션**입니다.
 
 의료 데이터 특유의 클래스 불균형 문제를 해결하기 위해 다양한 샘플링 기법을 도입하였으며, 임상적 안전성을 극대화하기 위해 **Youden's Index 기반의 분류 임계값 최적화**를 적용했습니다. 더불어, 블랙박스 모델인 머신러닝의 신뢰성을 확보하고자 **SHAP(SHapley Additive exPlanations)** 분석을 도입하여 **설명 가능한 AI(XAI)** 기반의 직관적인 환자 맞춤형 기여도 분석을 제공합니다.
 
@@ -139,19 +139,24 @@
 ## 🖥️ 6. Streamlit 웹 애플리케이션 주요 기능
 
 Streamlit을 기반으로 다이나믹하게 동작하는 프리미엄 대시보드를 구성했습니다.
-1. **Tab 1: 간편 위험도 (Model 1)**
+1. **Tab 1: 간편 위험도 예측 시스템 (Model 1)** 
    * 환자가 직접 입력할 수 있는 직관적인 설문형 UI 제공
    * 예측 결과를 직관적인 0~100% 위험도 프로그레스 바(초록색 ➡️ 노란색 ➡️ 빨간색 그라데이션)로 시각화
    * 당뇨, 고혈압 등 개별 위험요인에 따른 상세 건강 가이드 제공
-2. **Tab 2: 정밀 예측 (Model 2)**
+   * 고위험판단시 병원내원 유도
+     
+2. **Tab 2: 정밀 예측 시스템 (Model 2)**
    * 심전도(ECG), 혈액검사(TG, ESR), 심초음파(RWMA, VHD) 등 종합 임상 지표 입력 폼 제공
    * **실시간 SHAP 분석 패널**: '예측 실행' 클릭 즉시 **Waterfall Plot** 및 **기여도 수치 테이블**을 실시간 렌더링
+     
 3. **Tab 3: 모델 설명**
    * 각 모델의 변수 정의 및 범주화 기준 공유
    * CV 기준 Accuracy, Precision, Recall, F1-Score, ROC-AUC 메트릭을 실시간 지표 카드로 시각화하여 대외 신뢰도 제공
 
+
 🫀Service Model 1 APP
 <img width="1848" height="958" alt="ServiceAPP_modle1" src="https://github.com/user-attachments/assets/6abb0a96-74f7-49ef-ace9-e851a884a10c" />
+
 
 🫀Service Model 2 APP
 <img width="1831" height="915" alt="ServiceAPP_modle2" src="https://github.com/user-attachments/assets/a1a8d259-3211-41a9-8a77-f4281d16f02f" />
