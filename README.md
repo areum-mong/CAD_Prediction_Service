@@ -96,6 +96,8 @@
 │                                 │         │   심초음파(RWMA, VHD) 등        │
 └─────────────────────────────────┘         └─────────────────────────────────┘
 ```
+<img width="1903" height="917" alt="Two_track_solution" src="https://github.com/user-attachments/assets/e62d7045-e25b-4bd4-a15d-2d4d751aab51" />
+
 
 ---
 
@@ -141,6 +143,13 @@ Streamlit을 기반으로 다이나믹하게 동작하는 프리미엄 대시보
 3. **Tab 3: 모델 설명**
    * 각 모델의 변수 정의 및 범주화 기준 공유
    * CV 기준 Accuracy, Precision, Recall, F1-Score, ROC-AUC 메트릭을 실시간 지표 카드로 시각화하여 대외 신뢰도 제공
+
+🫀Service Model 1 APP
+<img width="1848" height="958" alt="ServiceAPP_modle1" src="https://github.com/user-attachments/assets/6abb0a96-74f7-49ef-ace9-e851a884a10c" />
+
+🫀Service Model 2 APP
+<img width="1831" height="915" alt="ServiceAPP_modle2" src="https://github.com/user-attachments/assets/a1a8d259-3211-41a9-8a77-f4281d16f02f" />
+
 
 ---
 
